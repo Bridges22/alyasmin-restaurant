@@ -214,29 +214,14 @@ export default function Home() {
       {/* Story / About Snippet Section */}
       <section className="py-24 overflow-hidden bg-secondary/10">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="relative overflow-hidden rounded-2xl group shadow-2xl h-[500px]">
-             {/* 10+ Years Badge overlaying the image */}
+          <div className="relative overflow-hidden rounded-2xl group shadow-2xl h-[500px] bg-secondary/20 flex items-center justify-center border-2 border-dashed border-primary/20">
+             {/* 10+ Years Badge overlaying the container */}
              <div className="absolute bottom-6 right-6 z-20 bg-primary text-white p-6 text-center transform shadow-2xl flex flex-col items-center justify-center border-l-4 border-amber-400">
                 <span className="text-4xl md:text-5xl font-black mb-1">10+</span>
                 <span className="text-xs tracking-widest font-bold uppercase">Years Serving<br/>The Coast</span>
              </div>
              
-            <motion.div 
-              initial={{ right: 0 }}
-              whileInView={{ right: "100%" }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 1 }} 
-              className="absolute inset-0 bg-primary z-10"
-            />
-            <motion.img
-              initial={{ scale: 1.2 }}
-              whileInView={{ scale: 1 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 1.2 }}
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663333072259/59pcTgQtqakmcKawFWBMNB/restaurant-ambiance-mmhy8cewss7ZFG9wV6qufG.webp"
-              alt="Alyasmin Story"
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
+             <div className="text-primary/40 font-medium italic">Image coming soon...</div>
           </div>
           
           <motion.div
