@@ -215,7 +215,7 @@ export default function Home() {
       <section className="py-24 overflow-hidden bg-secondary/10">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative overflow-hidden rounded-2xl group shadow-2xl h-[500px] flex items-center justify-center">
-             <img src="/images/story_food_spread.png" alt="Delicious Swahili coastal food spread" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+             <img src="/images/restaurant_exterior.webp" alt="Al Yasmin Swahili Dishes Restaurant Exterior" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-700" />
              {/* 10+ Years Badge overlaying the container */}
              <div className="absolute bottom-6 right-6 z-20 bg-primary text-white p-6 text-center transform shadow-2xl flex flex-col items-center justify-center border-l-4 border-amber-400">

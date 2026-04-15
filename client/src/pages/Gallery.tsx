@@ -15,9 +15,9 @@ export default function Gallery() {
       description: "Our signature spiced chicken with golden chips",
     },
     {
-      url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663333072259/59pcTgQtqakmcKawFWBMNB/restaurant-ambiance-mmhy8cewss7ZFG9wV6qufG.webp",
-      title: "Outdoor Seating",
-      description: "Beautiful outdoor dining area with ocean view",
+      url: "/images/restaurant_exterior.webp",
+      title: "Our Restaurant",
+      description: "Authentic Swahili hospitality in the heart of Ukunda",
     },
     {
       url: "https://d2xsxph8kpxj0f.cloudfront.net/310519663333072259/59pcTgQtqakmcKawFWBMNB/swahili-spices-hero-NhAcBPba7QRz7UpmydhNQf.webp",
