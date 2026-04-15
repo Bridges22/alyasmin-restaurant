@@ -42,7 +42,7 @@ export default function Gallery() {
   return (
     <PageTransition>
       <SEO 
-        title="Gallery | Alyasmin Swahili Dishes" 
+        title="Gallery | Al Yasmin Swahili Dishes" 
         description="View photos of our beautiful authentic Swahili cuisine and vibrant family-friendly outdoor dining ambiance in Ukunda."
       />
       {/* Hero Section */}
@@ -74,7 +74,7 @@ export default function Gallery() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-2xl text-muted-foreground max-w-3xl"
           >
-            Explore the beauty of Alyasmin Swahili Dishes through our collection of food and ambiance photos
+            Explore the beauty of Al Yasmin Swahili Dishes through our collection of food and ambiance photos
           </motion.p>
         </div>
       </section>
@@ -131,7 +131,7 @@ export default function Gallery() {
             variants={fadeUpVariant}
             className="text-4xl md:text-5xl font-bold text-primary mb-12"
           >
-            Experience Alyasmin
+            Experience Al Yasmin
           </motion.h2>
           <motion.div 
             variants={staggerContainer}
@@ -141,10 +141,10 @@ export default function Gallery() {
             className="space-y-8 text-xl text-muted-foreground leading-relaxed"
           >
             <motion.p variants={fadeUpVariant}>
-              Our gallery showcases the vibrant colors, fresh ingredients, and warm atmosphere that define the Alyasmin experience. From beautifully plated dishes to our inviting outdoor seating area, every image tells the story of authentic Swahili hospitality.
+              Our gallery showcases the vibrant colors, fresh ingredients, and warm atmosphere that define the Al Yasmin experience. From beautifully plated dishes to our inviting outdoor seating area, every image tells the story of authentic Swahili hospitality.
             </motion.p>
             <motion.p variants={fadeUpVariant}>
-              Whether you are a food enthusiast, a traveler seeking authentic experiences, or a local looking for your new favorite restaurant, these images capture the essence of what makes Alyasmin special.
+              Whether you are a food enthusiast, a traveler seeking authentic experiences, or a local looking for your new favorite restaurant, these images capture the essence of what makes Al Yasmin special.
             </motion.p>
           </motion.div>
         </div>
@@ -169,7 +169,7 @@ export default function Gallery() {
             transition={{ delay: 0.2 }}
             className="text-2xl opacity-90 max-w-2xl mx-auto font-light"
           >
-            Come experience the authentic flavors and warm hospitality of Alyasmin Swahili Dishes
+            Come experience the authentic flavors and warm hospitality of Al Yasmin Swahili Dishes
           </motion.p>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}

@@ -1,4 +1,4 @@
-﻿import { Link } from "wouter";
+import { Link } from "wouter";
 import { ArrowLeft, Leaf, Users, Globe, ChefHat, Quote } from "lucide-react";
 import PageTransition from "@/components/PageTransition";
 import { motion } from "framer-motion";
@@ -49,8 +49,8 @@ export default function About() {
   return (
     <PageTransition>
       <SEO 
-        title="Our Story | Alyasmin Swahili Dishes" 
-        description="Learn about the rich Swahili culinary heritage and coastal hospitality behind Alyasmin Swahili Dishes in Ukunda." 
+        title="Our Story | Al Yasmin Swahili Dishes" 
+        description="Learn about the rich Swahili culinary heritage and coastal hospitality behind Al Yasmin Swahili Dishes in Ukunda." 
       />
       {/* Hero Section */}
       <section className="py-24 bg-secondary/20 mt-16 md:mt-20">
@@ -71,7 +71,7 @@ export default function About() {
             transition={{ delay: 0.1, duration: 0.8 }}
             className="overflow-hidden"
           >
-            <span className="text-sm font-bold tracking-[0.2em] uppercase text-primary">About Alyasmin</span>
+            <span className="text-sm font-bold tracking-[0.2em] uppercase text-primary">About Al Yasmin</span>
             <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight mt-4">
               A Family Table on <em className="text-primary not-italic">the Swahili Coast</em>
             </h1>
@@ -91,19 +91,19 @@ export default function About() {
             className="space-y-8 text-xl text-muted-foreground leading-relaxed font-light"
           >
             <motion.p variants={fadeUpVariant}>
-              Alyasmin Swahili Dishes was founded with one simple belief: that food cooked with love and tradition feeds more than just the body, it feeds the soul. Located in Ukunda, Kwale County, just a short distance from the world-famous Diani Beach, we serve the coastal community and thousands of visitors every year.
+              Al Yasmin Swahili Dishes was founded with one simple belief: that food cooked with love and tradition feeds more than just the body, it feeds the soul. Located in Ukunda, Kwale County, just a short distance from the world-famous Diani Beach, we serve the coastal community and thousands of visitors every year.
             </motion.p>
             <motion.p variants={fadeUpVariant}>
               Our kitchen is rooted in authentic Swahili cooking, the vibrant culinary tradition of Kenya's Indian Ocean coast, shaped by centuries of African, Arab, Indian and Portuguese influences. Every dish we serve carries that layered history, from our slow-cooked biryanis to our coconut-spiced stews and freshly grilled seafood.
             </motion.p>
             <motion.p variants={fadeUpVariant}>
-              We are a family-friendly restaurant. Whether you're a couple on a beach holiday, a local family gathering for Sunday lunch, a group of friends exploring the coast, or a corporate team needing catering, Alyasmin is your home at the table.
+              We are a family-friendly restaurant. Whether you're a couple on a beach holiday, a local family gathering for Sunday lunch, a group of friends exploring the coast, or a corporate team needing catering, Al Yasmin is your home at the table.
             </motion.p>
             
             <motion.div variants={fadeUpVariant} className="p-8 border-l-4 border-amber-600 bg-secondary/30 mt-12 relative rounded-r-lg">
               <Quote className="absolute top-6 right-6 w-16 h-16 text-primary/10" />
-              <p className="text-2xl font-bold italic text-foreground mb-3">"Tuko hapa kwa ajili yenu, wageni wetu ni baraka yetu. Alyasmin ni zaidi ya mkahawa; ni mahali pa kukutana, kula pamoja, na kushiriki furaha ya pwani yetu."</p>
-              <p className="text-base text-muted-foreground uppercase tracking-widest font-semibold">We are here for you, our guests are our blessing. Alyasmin is more than a restaurant; it is a place to gather, eat together, and share the joy of our coast.</p>
+              <p className="text-2xl font-bold italic text-foreground mb-3">"Tuko hapa kwa ajili yenu, wageni wetu ni baraka yetu. Al Yasmin ni zaidi ya mkahawa; ni mahali pa kukutana, kula pamoja, na kushiriki furaha ya pwani yetu."</p>
+              <p className="text-base text-muted-foreground uppercase tracking-widest font-semibold">We are here for you, our guests are our blessing. Al Yasmin is more than a restaurant; it is a place to gather, eat together, and share the joy of our coast.</p>
             </motion.div>
           </motion.div>
         </div>

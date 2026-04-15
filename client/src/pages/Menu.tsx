@@ -1,4 +1,4 @@
-﻿import { Link } from "wouter";
+import { Link } from "wouter";
 import { ArrowLeft, Coffee, Cookie, Utensils, Egg, Salad, Carrot, GlassWater } from "lucide-react";
 import { useState, useEffect } from "react";
 import PageTransition from "@/components/PageTransition";
@@ -236,7 +236,7 @@ export default function Menu() {
   return (
     <PageTransition>
       <SEO
-        title="Our Menu | Alyasmin Swahili Dishes"
+        title="Our Menu | Al Yasmin Swahili Dishes"
         description="Explore our authentic Swahili menu featuring Pilau, Biryani, fresh seafood, and traditional breakfast options."
       />
 
@@ -369,7 +369,7 @@ export default function Menu() {
                             {item.price}
                           </span>
                           <a
-                            href={`https://wa.me/254720448662?text=${encodeURIComponent(`Hi Alyasmin, I would like to order: ${item.name}`)}`}
+                            href={`https://wa.me/254720448662?text=${encodeURIComponent(`Hi Al Yasmin, I would like to order: ${item.name}`)}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={(e) => e.stopPropagation()}

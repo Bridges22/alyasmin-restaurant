@@ -48,8 +48,8 @@ export default function Contact() {
   return (
     <PageTransition>
       <SEO 
-        title="Contact Us | Alyasmin Swahili Dishes" 
-        description="Get in touch with Alyasmin Swahili Dishes for reservations, catering inquiries, or takeaway orders in Ukunda."
+        title="Contact Us | Al Yasmin Swahili Dishes" 
+        description="Get in touch with Al Yasmin Swahili Dishes for reservations, catering inquiries, or takeaway orders in Ukunda."
       />
       {/* Hero Section */}
       <section className="py-24 bg-secondary/20 mt-16 md:mt-20">
@@ -80,7 +80,7 @@ export default function Contact() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-2xl text-muted-foreground max-w-3xl"
           >
-            Get in touch with Alyasmin Swahili Dishes for reservations, inquiries, or catering requests
+            Get in touch with Al Yasmin Swahili Dishes for reservations, inquiries, or catering requests
           </motion.p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function Contact() {
               allowFullScreen={true} 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Alyasmin Swahili Dishes Location in Ukunda"
+              title="Al Yasmin Swahili Dishes Location in Ukunda"
             ></iframe>
             {/* Map Overlay to prevent unwanted scrolling while zooming unless clicked */}
             <div className="absolute inset-0 bg-transparent pointer-events-none group-hover:pointer-events-auto"></div>

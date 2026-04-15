@@ -36,12 +36,12 @@ export default function Navbar() {
             >
               <img
                 src="/logo.jpg"
-                alt="Alyasmin Swahili Dishes Logo"
+                alt="Al Yasmin Swahili Dishes Logo"
                 className="w-[135%] h-[135%] max-w-none object-cover"
               />
             </motion.div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-primary group-hover:text-amber-600 transition-colors leading-tight">Alyasmin Swahili Dishes</span>
+              <span className="text-xl font-bold text-primary group-hover:text-amber-600 transition-colors leading-tight">Al Yasmin Swahili Dishes</span>
               <div className="flex items-center gap-2 mt-1">
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>

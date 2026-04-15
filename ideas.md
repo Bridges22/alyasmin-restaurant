@@ -1,4 +1,4 @@
-# Alyasmin Restaurant Website Design Concepts
+# Al Yasmin Restaurant Website Design Concepts
 
 ## Concept 1: Warm Coastal Minimalism
 **Design Movement:** Contemporary Minimalism with Coastal Warmth  

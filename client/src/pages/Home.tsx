@@ -73,7 +73,7 @@ export default function Home() {
       origin: "Local Family, Ukunda"
     },
     {
-      text: "We had Alyasmin cater our wedding reception for over 150 guests. The team was professional, the food was incredible, and everyone kept asking for the recipe!",
+      text: "We had Al Yasmin cater our wedding reception for over 150 guests. The team was professional, the food was incredible, and everyone kept asking for the recipe!",
       author: "Mwana K.",
       origin: "Wedding Client, Kwale"
     }
@@ -92,13 +92,13 @@ export default function Home() {
     }
   };
 
-  const marqueeText = " Alyasmin Swahili Dishes • Ladha Halisi ya Kiswahili • Authentic Coastal Cuisine • ";
+  const marqueeText = " Al Yasmin Swahili Dishes • Ladha Halisi ya Kiswahili • Authentic Coastal Cuisine • ";
 
   return (
     <PageTransition>
       <SEO 
-        title="Alyasmin Swahili Dishes | Authentic Coastal Cuisine in Ukunda" 
-        description="Experience the true flavors of the coast at Alyasmin Swahili Dishes. Authentic coastal cuisine in the heart of Ukunda near Diani Beach." 
+        title="Al Yasmin Swahili Dishes | Authentic Coastal Cuisine in Ukunda" 
+        description="Experience the true flavors of the coast at Al Yasmin Swahili Dishes. Authentic coastal cuisine in the heart of Ukunda near Diani Beach." 
       />
 
       {/* Hero Section with Parallax */}
@@ -237,7 +237,7 @@ export default function Home() {
             </h2>
             <div className="w-16 h-1 bg-gradient-to-r from-primary to-amber-500 rounded my-6"></div>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Nestled in Ukunda, just minutes from the famous Diani Beach, Alyasmin Swahili Dishes was born from a love of authentic Swahili cooking. We use time-honored recipes passed down through generations of coastal families, crafted with the freshest local ingredients.
+              Nestled in Ukunda, just minutes from the famous Diani Beach, Al Yasmin Swahili Dishes was born from a love of authentic Swahili cooking. We use time-honored recipes passed down through generations of coastal families, crafted with the freshest local ingredients.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
               Whether you're a tourist discovering Kenyan cuisine for the first time, a local family looking for a warm place to gather, or a business group needing catering, we welcome you with open arms and generous plates.
@@ -299,7 +299,7 @@ export default function Home() {
                      <span className="font-black text-xl text-foreground">{item.price}</span>
                    </div>
                    <a
-                     href={`https://wa.me/254720448662?text=${encodeURIComponent(`Hi Alyasmin, I would like to order: ${item.name}`)}`}
+                     href={`https://wa.me/254720448662?text=${encodeURIComponent(`Hi Al Yasmin, I would like to order: ${item.name}`)}`}
                      target="_blank"
                      rel="noopener noreferrer"
                      onClick={(e) => e.stopPropagation()}

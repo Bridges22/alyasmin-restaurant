@@ -1,4 +1,4 @@
-﻿import { Link } from "wouter";
+import { Link } from "wouter";
 import { Facebook, Instagram, MessageCircle, MapPin, Phone, Clock } from "lucide-react";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
                 <div className="h-14 w-14 rounded-full border-2 border-primary/40 overflow-hidden shrink-0 flex items-center justify-center bg-[#8B0000] transition-all group-hover:scale-105">
                   <img
                     src="/logo.jpg"
-                    alt="Alyasmin Swahili Dishes Logo"
+                    alt="Al Yasmin Swahili Dishes Logo"
                     className="w-[135%] h-[135%] max-w-none object-cover"
                   />
                 </div>
@@ -111,7 +111,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 opacity-60 text-xs">
-          <p>&copy; 2026 Alyasmin Swahili Dishes. All rights reserved.</p>
+          <p>&copy; 2026 Al Yasmin Swahili Dishes. All rights reserved.</p>
           <p className="text-center md:text-right">
             SEO: Swahili food Ukunda · Restaurant near Diani Beach · Coastal Kenya cuisine
           </p>
