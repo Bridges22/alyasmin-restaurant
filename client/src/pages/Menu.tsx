@@ -279,27 +279,27 @@ export default function Menu() {
       </section>
 
       {/* Category Tabs, now with icons */}
-      <section className="sticky top-16 md:top-20 z-40 bg-background/95 backdrop-blur-md border-b border-border py-4">
+      <section className="relative lg:sticky top-16 md:top-20 z-40 bg-background/95 backdrop-blur-md border-b border-border py-6 shadow-sm">
         <div className="container">
-          <div className="flex overflow-x-auto gap-2 pb-2 scrollbar-hide">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {categories.map((cat) => (
               <button
                 key={cat.id}
                 onClick={() => setActiveCategory(cat.id)}
-                className={`relative flex items-center gap-2 px-6 py-2 rounded-2xl font-semibold whitespace-nowrap transition-all duration-300 ${activeCategory === cat.id
-                  ? "text-primary-foreground shadow-md"
-                  : "bg-secondary text-foreground hover:bg-secondary/80"
+                className={`relative flex items-center justify-center gap-2 px-3 py-3 rounded-xl sm:rounded-2xl text-sm sm:text-base font-bold transition-all duration-300 border ${activeCategory === cat.id
+                  ? "text-primary-foreground border-primary shadow-md"
+                  : "bg-secondary text-foreground border-transparent hover:bg-secondary/80 hover:border-primary/30"
                   }`}
               >
                 {activeCategory === cat.id && (
                   <motion.div
                     layoutId="active-tab"
-                    className="absolute inset-0 bg-primary rounded-2xl -z-10"
+                    className="absolute inset-0 bg-primary rounded-xl sm:rounded-2xl -z-10"
                     transition={{ type: "spring", stiffness: 350, damping: 30 }}
                   />
                 )}
-                <cat.icon className="w-4 h-4" />
-                {cat.label}
+                <cat.icon className="w-4 h-4 shrink-0" />
+                <span className="text-center leading-tight">{cat.label}</span>
               </button>
             ))}
           </div>

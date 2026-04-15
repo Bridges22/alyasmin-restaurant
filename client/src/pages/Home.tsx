@@ -214,14 +214,14 @@ export default function Home() {
       {/* Story / About Snippet Section */}
       <section className="py-24 overflow-hidden bg-secondary/10">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="relative overflow-hidden rounded-2xl group shadow-2xl h-[500px] bg-secondary/20 flex items-center justify-center border-2 border-dashed border-primary/20">
+          <div className="relative overflow-hidden rounded-2xl group shadow-2xl h-[500px] flex items-center justify-center">
+             <img src="/images/story_food_spread.png" alt="Delicious Swahili coastal food spread" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+             <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-700" />
              {/* 10+ Years Badge overlaying the container */}
              <div className="absolute bottom-6 right-6 z-20 bg-primary text-white p-6 text-center transform shadow-2xl flex flex-col items-center justify-center border-l-4 border-amber-400">
                 <span className="text-4xl md:text-5xl font-black mb-1">10+</span>
                 <span className="text-xs tracking-widest font-bold uppercase">Years Serving<br/>The Coast</span>
              </div>
-             
-             <div className="text-primary/40 font-medium italic">Image coming soon...</div>
           </div>
           
           <motion.div
